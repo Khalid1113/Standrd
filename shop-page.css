@@ -1,0 +1,64 @@
+html{
+    background-color: black;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.left-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.center-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#search-bar, #basket {
+    margin-left: 10px;
+}
+.search,.cart{
+    width: 36px;
+}
+.clothing{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.sort{
+    display: flex;
+    gap: 20px;
+}
+
+.hoddie{
+    width: 150px;
+} 
+.price{
+    text-align: center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.bottom-nav{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+

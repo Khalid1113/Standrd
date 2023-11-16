@@ -1,0 +1,97 @@
+html{
+    background-color: black;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.left-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.center-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+#search-bar, #basket {
+    margin-left: 10px;
+}
+.search,.cart{
+    width: 36px;
+}
+/* changes hyperlink colors to white*/
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.front-cover{
+display: flex;     
+justify-content: center;
+align-items: center;
+}
+.shop-button{
+    display: flex;
+    justify-content: center;    
+}
+.shop{
+    width: 180px;
+    font-size: large;
+    border-radius: 50px;
+    border-color: white;
+    font-weight: bolder;
+    padding: 0px;
+    color: white;
+    background-color: black;
+}
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3rem;
+}
+.newsletter-content{
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+.newsletter-bottom{
+    padding: 20px;
+    width:45vh ;
+    font-size: 1.2rem;
+}
+
+.bottom-nav{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+footer{
+    margin-top: auto;
+}
+.name{
+    display: flex;
+    justify-content: center; 
+}
+.statement{
+    flex-grow: 1;
+}
+
+
+
